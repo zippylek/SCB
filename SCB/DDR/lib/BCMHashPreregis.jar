@@ -1,0 +1,11 @@
+
+@echo off
+
+SET INPUT=%~1
+SET CURRENT_DIR=%~2
+
+java -cp .;"%CURRENT_DIR%/BCMHashPreregis.jar;" com.scb.hashAllSys.validations.HashValidation "%INPUT%"
+
+:finish
+
+
