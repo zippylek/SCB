@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+  <ApplicationKey>
+    <Register key="4gYtgAGi-nN8y-TyAx-fM9e-k8j9cea0a503"/>
+    <License key="mrPNO2MhThGLUk7rn0wyVRJOm6aIgsXx"/>
+  </ApplicationKey>
+  <appSettings>
+    <application Password="intranetadasdfxl" SessionId="63318a6a-bc12-4776-82e4-0ba47b7b59072222"/>
+  </appSettings>
+  <dbSettings>
+    <Database Provider="Microsoft.Jet.OLEDB.4.0" Server="D:\SCB_Project\Payment_S1\Database\" Name="S1db_SCGdigital.mdb" UserId="admin" Password="AP3OfefbwoA="/>
+  </dbSettings>
+  <webservices>
+    <CAS Protocal="http" Server="localhost/WebService1/" Port="" Script="ServiceLogin.asmx"/>
+  </webservices>
+  <authentication>
+    <LDAP Login="false" WinAuth="true" Domain="CEMENTHAI"/>
+    <twofactor>
+      <RFID ComPort="4" BAUD="19200"/>
+    </twofactor>
+  </authentication>
+  <Files>
+    <Input Path="D:\" Encode="" />
+    <Output Path="D:\" Encode="TIS-620" />
+    <Report Path="D:\" Encode="UTF8" />
+  </Files>
+  <Setup>
+    <Corp id="scgdigital">
+      <CorpAccLevel AccountNo="4680794049" PayCycle="2" />
+    </Corp>
+    <Corp id="BetterBe">
+      <CorpAccLevel AccountNo="4680532154" PayCycle="2" />
+    </Corp>
+    <Corp id="NEXTERRETAIL">
+      <CorpAccLevel AccountNo="4680755126" PayCycle="2" />
+    </Corp>
+    <Corp id="scgtservices">
+      <CorpAccLevel AccountNo="1113938334" PayCycle="2" />
+    </Corp>
+  </Setup>
+</configuration>
