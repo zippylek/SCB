@@ -8,7 +8,7 @@
     <application Password="intranetadasdfxl" SessionId="63318a6a-bc12-4776-82e4-0ba47b7b59072222"/>
   </appSettings>
   <dbSettings>
-    <Database Provider="Microsoft.Jet.OLEDB.4.0" Server="D:\SCB_Project\Payment_S1\Database\" Name="S1db_SCGdigital.mdb" UserId="admin" Password="AP3OfefbwoA="/>
+    <Database Provider="Microsoft.Jet.OLEDB.4.0" Server="D:\SCB_Project\Payment_S1\Database\" Name="S1db_GRANDPALACE.mdb" UserId="admin" Password="AP3OfefbwoA="/>
   </dbSettings>
   <webservices>
     <CAS Protocal="http" Server="localhost/WebService1/" Port="" Script="ServiceLogin.asmx"/>
